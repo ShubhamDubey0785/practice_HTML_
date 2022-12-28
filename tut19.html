@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Width Border and Background</title>
+    <style>
+        #firstPara{
+            color:red;
+            background-color: rgb(48, 55, 61);
+            height: 50px;
+            width: 70px;
+            border-width: 10px;
+            border-radius: 5px;
+            border-color: green;
+            border-style:double;
+        }
+        #secPara{
+            color:red;
+            background-color: rgb(48, 55, 61);
+            height: 50px;
+            width: 70px;
+            border-radius: 5px;
+            border:10px double green;
+        }
+        #thir{
+            color:white;
+            background-color:black;
+            height:px;
+            width:100px;
+            border-top: 2px solid pink;
+            border-right: 2px red dotted;
+            border-bottom: 2px blue double;
+            border-left: 2px orange dashed;
+            border-top-left-radius:2px;
+            border-top-right-radius:5px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius:15px;
+        }
+        #four{
+            height:122px;
+            width:150x;
+            background-image:url('https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75');
+            border-radius:5px;
+            border:2px dotted red;
+            background-repeat:no-repeat;   /*background image not repeat*/
+            /* background-repeat:repeat-x;   /*background image repeat horizontally */
+            /* background-repeat:repeat-y;   /*background image repeat vertically */
+            /* background-position:center center;*/  /*image at center */
+            /*background-position:122px 58px;*/  /*122px from x and 58px from y*/
+            /* background-position:center top; */   /* center top*/
+            /* background-position: top center;  /*top center*/
+            /* background-position:center right;
+            background-position: center left;
+            background-position: top right;
+            background-position: top left; */
+            background-position: bottom left;
+            /* background-position: bottom right; */
+        }
+    </style>
+</head>
+<body>
+    <h2>This is heading</h2>
+    <p id="firstPara">This is paragraph</p>
+    <p id="secPara">this secondpara</p>
+    <p id="thir">this is third paragraph</p>
+    <p id="four">this is fourth paragraph</p>
+</body>
+</html>
